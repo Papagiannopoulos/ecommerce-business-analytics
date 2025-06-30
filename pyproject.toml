@@ -9,10 +9,8 @@ dependencies = [
     "kaggle>=1.7.4.5",
     "kagglehub>=0.3.12",
     "matplotlib>=3.10.3",
-    "nbformat==4.2.0",
     "numpy>=2.3.1",
     "pandas>=2.3.0",
-    "plotly>=6.2.0",
     "pyfim>=6.28",
     "seaborn>=0.13.2",
 ]
