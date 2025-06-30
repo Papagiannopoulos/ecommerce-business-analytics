@@ -3,10 +3,10 @@ This is a sales transaction public available dataset of UK-based e-commerce (onl
 This London-based shop has been selling gifts and homewares for adults and children through the website since 2007.
 
 ## Project Summary
-This project analyzes a random year of UK e-commerce transactions to uncover:  
-1) Customer behavior ➡️ customer segmentation based on Recency-Frequency-Monetary (RFM)
-2) Product trends ➡️ market basket analysis)
-3) Opportunities for business growth ➡️ cohort analysis
+This project analyzes a random year of UK e-commerce transactions to uncover:   
+1) Customer behavior ➡️ customer segmentation based on Recency-Frequency-Monetary (RFM)  
+2) Product trends ➡️ market basket analysis  
+3) Opportunities for business growth ➡️ cohort analysis  
 This analysis reveal key drivers of revenue, retention, and product associations. 
 
 ## Project Structure
@@ -16,11 +16,11 @@ This analysis reveal key drivers of revenue, retention, and product associations
 2. 🧹 **[ Data Preprocessing](#-data-preprocessing)** - Cleaning and feature engineering
 3. 📊 **[ Exploratory Data Analysis](#-exploratory-data-analysis-eda)** - Key insights and patterns
 4. 👥 **[ Customer Segmentation](#-customer-segmentation)** - RFM Analysis and Pareto Principle
-5. **[ Customer Retention Analysis](#-customer-retention-analysis)** - Cohort analysis
+5. 🧩 **[ Customer Retention Analysis](#-customer-retention-analysis)** - Cohort analysis
 6. 🛒 **[ Market Basket Analysis](#-market-basket-analysis)** - Product associations rules and cross-selling
 7. 💡 **[ Business Recommendations](#-business-recommendations)** - Actionable insights and strategies
 8. 🚀 **[ Future Enhancements](#-future-enhancements)** - Next steps and improvements
-9. 🔁 **[ Reproducibility](#-eproducibility)** - Install dependencies
+9. 🔁 **[ Reproducibility](#-reproducibility)** - Install dependencies
 
 ## 🔍 Dataset
 I used the Kaggle API (Program > kaggle_data_download.py) to automatically load the dataset — no manual download is required.  
@@ -72,15 +72,16 @@ Customers were segmented using RFM analysis (Recency, Frequency, Monetary) with 
 - **At Risk**: Previously valuable customers showing declining activity
 - **New Customers**: Recent acquisitions
 - **Customer Segments Distribution**
-![Customer Segment Distribution](images/customer_distribution.png)
 
 ### Revenue Distribution by Segement
+![Customer Segment Distribution](images/customer_distribution.png)
+
 - **Pareto Principle** 28% (top 3 segements) of total customers generate 80% of total revenue
 - **Top 3 segments** generate 80.7% of total revenue
 - **VIP segment** alone contributes ~60% of total revenue
 ![Pareto Principle](images/pareto.png)
 
-## Customer Retention Analysis 
+## 🧩 Customer Retention Analysis 
 
 ### Cohort Analysis
 **Cohort analysis groups customers by the month they first made a purchase and tracks how many return in later months.**  
@@ -156,10 +157,11 @@ Customers were segmented using RFM analysis (Recency, Frequency, Monetary) with 
 - **Time series models**: Predict the next purchase move of VIP customers for strategic marketing
 
 ## 🔁 Reproducibility
-# 1. Clone repo and cd
-git clone https://github.com/your/repo.git
-cd repo
-# 2. Create a fresh virtual env
+#### 1. Clone repo and cd
+git clone https://github.com/Papagiannopoulos/ecommerce-business-analytics.git   
+cd 'ecommerce-business-analytics'
+#### 2. Create a fresh virtual env
 uv venv
-# 3. Sync environment
+#### 3. Sync environment
 uv sync
+#### 4. You are ready!!!
