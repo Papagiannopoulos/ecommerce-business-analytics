@@ -50,16 +50,19 @@ More info about data, available at the following link.
 ![Bulk vs Retail](images/bulk_vs_retail.png)
 
 ### Top Revenue Generators
-- **Top 10 Products by Revenue**
+- **Top 10 Products by Revenue (£)**
 ![Top Products by Revenue](images/top_products.png)
 
-- **Monthly Revenue**
+- **Monthly Revenue Trend (£)**
 ![Monthly Revenue](images/monthly_revenue.png)
 
-- **Product Categories by Revenue**
+- **Revenue Trend by Day of Week (£)**
+![Monthly Revenue](images/DoW_revenue.png)
+
+- **Top 10 Product Categories by Revenue (£)**
 ![Categories Revenue](images/category_revenue.png)
 
-- **Top Countries by Revenue**
+- **Top 5 Countries by Revenue (£)**
 ![Top Countries by Revenue](images/top_countries.png)
 
 ## 👥 Customer Segmentation
@@ -74,11 +77,10 @@ Customers were segmented using RFM analysis (Recency, Frequency, Monetary) with 
 - **Customer Segments Distribution**
 
 ### Revenue Distribution by Segement
-![Customer Segment Distribution](images/customer_distribution.png)
+![Customer Segment Distribution](images/rfn_segment_distribution.png)
 
-- **Pareto Principle** 28% (top 3 segements) of total customers generate 80% of total revenue
+- **Pareto Principle** VIP customers alone (20%) generates ~61% of total revenue
 - **Top 3 segments** generate 80.7% of total revenue
-- **VIP segment** alone contributes ~60% of total revenue
 ![Pareto Principle](images/pareto.png)
 
 ## 🧩 Customer Retention Analysis 
