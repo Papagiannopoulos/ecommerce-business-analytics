@@ -74,12 +74,11 @@ Customers were segmented using RFM analysis (Recency, Frequency, Monetary) with 
 - **Loyal Customers**: Consistent engagement and spending
 - **At Risk**: Previously valuable customers showing declining activity
 - **New Customers**: Recent acquisitions
-- **Customer Segments Distribution**
 
-### Revenue Distribution by Segement
+### Customer Distribution by Segement
 ![Customer Segment Distribution](images/rfn_segment_distribution.png)
 
-- **Pareto Principle** VIP customers alone (20%) generates ~61% of total revenue
+- **Pareto Principle**: VIP customers alone (20%) generates ~61% of total revenue
 - **Top 3 segments** generate 80.7% of total revenue
 ![Pareto Principle](images/pareto.png)
 
@@ -97,11 +96,14 @@ Customers were segmented using RFM analysis (Recency, Frequency, Monetary) with 
 **First Month Dropoff:**
    - Average first-month retention: 20.3%  
 
+### Average Retention Rate per Month
 ![Cohort](images/seasonal_retention_rate.png)
+
 **Top 3 months for retention :**  
    - September: 24.1%
    - October: 23.3%
    - April: 20.6%
+
 **Bottom 3 months for retention :**  
    - March: 14.1%
    - June: 17.5%
