@@ -169,13 +169,12 @@ cd 'ecommerce-business-analytics'
 #### 2. Create a fresh virtual [env](https://github.com/astral-sh/uv)
 uv venv  
 **Note**: If uv is not already installed, run the following command in PowerShell.  
-- On macOS and Linux:
+- On macOS and Linux:  
 curl -LsSf https://astral.sh/uv/install.sh | sh  
 - On Windows:  
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
-#### 3. Kaggle's API
-steps:  
+#### 3. Kaggle's API  
 1) Create a [Kaggle account](https://www.kaggle.com)  
 2) Go to Account Settings and click "Create New API Token" to download the kaggle.json file  
 3) Navigate to C:\Users\<your_user_name> on your computer  
