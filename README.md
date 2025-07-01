@@ -23,8 +23,9 @@ This analysis reveal key drivers of revenue, retention, and product associations
 9. 🔁 **[ Reproducibility](#-reproducibility)** - Install dependencies
 
 ## 🔍 Dataset
-I used the Kaggle API (Program > kaggle_data_download.py) to automatically load the dataset — no manual download is required.  
-More info about data, available at the following link.  
+I used the Kaggle API (Program > kaggle_data_download.py) to automatically load the dataset.  
+Navigate to the [ Reproducibility](#-reproducibility) for more details regarding Kaggle API.    
+More info about data are available at the following link.  
 - *[📥 Download Source](https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business)*
 
 ## 🧹 Data Preprocessing
@@ -164,8 +165,25 @@ Customers were segmented using RFM analysis (Recency, Frequency, Monetary) with 
 #### 1. Clone repo and cd
 git clone https://github.com/Papagiannopoulos/ecommerce-business-analytics.git   
 cd 'ecommerce-business-analytics'
-#### 2. Create a fresh virtual env
-uv venv
-#### 3. Sync environment
-uv sync
-#### 4. You are ready!!!
+
+#### 2. Create a fresh virtual [env](https://github.com/astral-sh/uv)
+uv venv  
+**Note**: If uv is not already installed, run the following command in PowerShell.  
+- On macOS and Linux:
+curl -LsSf https://astral.sh/uv/install.sh | sh  
+- On Windows:  
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+#### 3. Kaggle's API
+steps:  
+1) Create a [Kaggle account](https://www.kaggle.com)  
+2) Go to Account Settings and click "Create New API Token" to download the kaggle.json file  
+3) Navigate to C:\Users\<your_user_name> on your computer  
+4) Create a new folder named .kaggle  
+5) Move the downloaded kaggle.json file into the .kaggle folder
+
+#### 4. Sync environment
+uv sync  
+**Note**: At this step, Microsoft Visual C++ is required. If sync crashes follow the provided steps.
+
+#### 5. You are ready!!!
