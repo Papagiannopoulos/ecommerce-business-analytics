@@ -25,7 +25,7 @@ This analysis reveal key drivers of revenue, retention, and product associations
 ## 🔍 Dataset
 I used the Kaggle API (Program > kaggle_data_download.py) to automatically load the dataset.  
 Navigate to the [ Reproducibility](#-reproducibility) for more details regarding Kaggle API.  
-More info about data are available at the following link.  
+More info about data is available at the following link.  
 - *[📥 Download Source](https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business)*
 
 ## 🧹 Data Preprocessing
