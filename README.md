@@ -1,6 +1,6 @@
 # E-commerce Sales Transactions Analysis
 This is a sales transaction public available dataset of UK-based e-commerce (online retail) for one year.  
-This London-based shop has been selling gifts and homewares for adults and children through the website since 2007.
+This shop has been selling gifts and homewares for adults and children through the website since 2007.
 
 ## Project Summary
 This project analyzes a random year of UK e-commerce transactions to uncover:   
@@ -24,7 +24,7 @@ This analysis reveal key drivers of revenue, retention, and product associations
 
 ## 🔍 Dataset
 I used the Kaggle API (Program > kaggle_data_download.py) to automatically load the dataset.  
-Navigate to the [ Reproducibility](#-reproducibility) for more details regarding Kaggle API.    
+Navigate to the [ Reproducibility](#-reproducibility) for more details regarding Kaggle API.  
 More info about data are available at the following link.  
 - *[📥 Download Source](https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business)*
 
@@ -151,7 +151,7 @@ Customers were segmented using RFM analysis (Recency, Frequency, Monetary) with 
 3. **Market Expansion**: 
 - Explore marketing strategies and tailored offers for high-potential European countries to diversify revenue streams
 4. **Seasonal Planning**: 
-- Align inventory and promotions with peak sales periods (e.g., October)
+- Align inventory and promotions prior to peak sales periods (e.g., October for November)
 - Scale back marketing spend and inventory during low-activity summer months to control costs
 
 ## 🚀 Future Enhancements
