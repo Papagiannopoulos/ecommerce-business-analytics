@@ -91,8 +91,8 @@ Customers were segmented using RFM analysis (Recency, Frequency, Monetary) with 
 ![Cohort](images/cohort.png)
 
 #### Retention Insights
-**We don't include the first month in our cohort analysis because our dataset only covers one full year.**
-**Including the first month would give incomplete retention results, since we can't track earlier activity or repeat purchases from before the dataset starts.**
+**First month removed from cohort analysis because the dataset only covers one full year.**
+**Including the first month would give incomplete retention results, since can't track earlier activity or repeat purchases from before the dataset starts.**
 
 **First Month Dropoff:**
    - Average first-month retention: 20.3%  
